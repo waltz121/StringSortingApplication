@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\StringSortingController.cs" />
+    <Compile Include="Model\SortingStrategy\BubbleSort.cs" />
+    <Compile Include="Model\SortingStrategy\ISortingStrategy.cs" />
+    <Compile Include="Model\SortingStrategy\MergeSort.cs" />
+    <Compile Include="Model\SortingStrategy\QuickSort.cs" />
+    <Compile Include="Model\StringSortingModel.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,9 +85,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

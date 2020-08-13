@@ -78,6 +78,7 @@
             this.SortButton.TabIndex = 4;
             this.SortButton.Text = "Sort";
             this.SortButton.UseVisualStyleBackColor = true;
+            this.SortButton.Click += new System.EventHandler(this.SortButton_Click);
             // 
             // OutputValue
             // 
