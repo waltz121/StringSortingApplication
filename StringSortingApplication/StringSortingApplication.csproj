@@ -52,6 +52,7 @@
     <Compile Include="Model\SortingStrategy\MergeSort.cs" />
     <Compile Include="Model\SortingStrategy\QuickSort.cs" />
     <Compile Include="Model\StringSortingModel.cs" />
+    <Compile Include="Model\StringSortingService.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
