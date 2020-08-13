@@ -108,6 +108,7 @@
             this.Controls.Add(this.SortingComboBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.InputTextbox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "String Sorting Application";
             this.ResumeLayout(false);
